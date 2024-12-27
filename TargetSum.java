@@ -1,4 +1,4 @@
-public class DayOneLeet {
+public class TargetSum {
 
     public int findTargetSumWays(int[] nums, int target) {
         return findTargetSumWays(nums, target, 0, 0);
@@ -13,7 +13,7 @@ public class DayOneLeet {
     }
 
     public static void main(String[] args) {
-        DayOneLeet dayOneLeet = new DayOneLeet();
+        TargetSum dayOneLeet = new TargetSum();
         int[] nums = {1, 1, 1, 1, 1};
         int target = 3;
         System.out.println(dayOneLeet.findTargetSumWays(nums, target));

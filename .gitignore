@@ -1,3 +1,6 @@
+# backup files
 *.bak
+# temporary files
 *~
+# Compiled class file
 *.class
